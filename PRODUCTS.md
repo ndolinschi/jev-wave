@@ -91,3 +91,20 @@ Criteria: real utility tomorrow · Jev decisions (not chat) · Next.js / Vercel 
 - `POST /api/decide`
 - Distinct UI personalities
 - Never commit secrets; optional wire from `/workspace/secrets/typesafe-api-key.txt`
+
+---
+
+# Agent Wave (six demos)
+
+Agent-harness focused Jev demos (shipped after the five vertical products above).
+
+| # | Product | One-liner | GitHub |
+|---|---------|-----------|--------|
+| 6 | **ToolGate** | Agent tool/MCP call gate → allow / ask_human / deny + risk | https://github.com/ndolinschi/toolgate |
+| 7 | **SwarmRouter** | Route task to research/code/browser/support/writer + confidence | https://github.com/ndolinschi/swarmrouter |
+| 8 | **HarnessJudge** | After agent step → ok / retry / escalate / stop | https://github.com/ndolinschi/harnessjudge |
+| 9 | **SpendBrake** | Budget + plan → continue / downgrade_model / stop | https://github.com/ndolinschi/spendbrake |
+| 10 | **McpMatch** | Goal → MCP tool from ~40-item catalog (two-stage) | https://github.com/ndolinschi/mcpmatch |
+| 11 | **JevPlay** | Freeform state + Choice/Score/Noul builder → live distributions | https://github.com/ndolinschi/jevplay |
+
+Details: `AGENT_WAVE.md` · Deploy: `DEPLOY_QUEUE.md`
